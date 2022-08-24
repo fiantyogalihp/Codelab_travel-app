@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
         ),
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
+          useMaterial3: true,
           primarySwatch: Colors.blue,
           fontFamily: GoogleFonts.montserrat().fontFamily,
         ),
